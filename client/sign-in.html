@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastre-se!</title>
+        <link rel="stylesheet" href="sign.css">
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="navbar">
+                <div class="invisible">
+                    <a href="index.html"><img src="deluxicon.png" alt=""
+                            class="deluxicon"></a>
+                </div>
+
+                <a href="loginpage.html"><div id="buttonLogin">
+                        <h2 class="buttonloginnav">LOGIN</h2>
+                    </div>
+                    <a href="sign-in.html"><div id="buttonCad">
+                            <h2 class="buttonloginnav">CADASTRAR</h2>
+                        </div></a>
+                </div>
+                <br><br><br><br><br><br><br>
+                <h2 class="textsign">Faça seu cadastro!</h2>
+                <p class="textsign">Mergulhe de cabeça em nosso universo!</p>
+
+
+                <div id="ativcamp">
+
+
+                    <div id="signcamp">
+                        <form action="/cadastro" method="post">
+                            <fieldset>
+
+                                <input type="text" placeholder="Nome"
+                                    name="name" class="loginbox">
+
+
+                                <center>
+                                    <hr>
+                                </center>
+                                <input type="text" placeholder="Sobrenome"
+                                    name="lastname" class="loginbox">
+
+                                <center>
+                                    <hr>
+                                </center>
+                                <input type="email" placeholder="Email"
+                                    name="email" class="loginbox">
+
+                                <center>
+                                    <hr>
+                                </center>
+                                <input type="password" placeholder="Senha"
+                                    name="password" class="loginbox">
+
+                                <center>
+                                    <hr>
+                                </center>
+                                <div class="genermark">
+
+                                    <p class="generotext">Genero</p>
+
+
+                                    <label for="men" class="menmark">
+                                        <input type="radio" id="men"
+                                            name="gener" value="masulino">Masculino
+                                    </label><br>
+                                    <label for="woman" class="womanmark">
+                                        <input type="radio" id="woman"
+                                            name="gener" value="feminino">Feminino
+                                    </label>
+                                </div>
+                                <center>
+                                </fieldset>
+                            </center>
+                            <label for="terms" class="chec">
+                                <input type="checkbox" required> Li e aceito os
+                                <a href="" class="termes">termos de uso</a>
+                            </label>
+                            <div class="buttoncamp">
+                                <button type="submit" class="buttonlog">CONFIRMAR</button>
+                                <br>
+                                <a href="loginpage.html"><button type="button"
+                                        id="loginbut">LOGIN</button></a>
+                            </div>
+
+                        </form>
+                    </div>
+                    <div id="imagesign">
+                        <img src="imagesign.jpg" alt="" class="imagesign">
+                    </div>
+                </div>
+            </div>
+
+
+        </body>
+
+    </html>
