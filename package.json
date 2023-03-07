@@ -1,0 +1,28 @@
+{
+  "name": "sequelize-ddscode",
+  "version": "1.0.0",
+  "description": "This is my project to study about Sequelize (Node.js)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "danilo1."
+  ],
+  "author": "Danilo Dante Siqueira",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "connect-flash": "^0.1.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mysql2": "^3.2.0",
+    "nodemon": "^2.0.21",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.29.0",
+    "sequelize-cli": "^6.6.0",
+    "tedious": "^15.1.3"
+  }
+}
