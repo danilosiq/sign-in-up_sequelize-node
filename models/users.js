@@ -10,13 +10,14 @@ const users = db.sequelize.define('logins', { //mapenado as tabelas
 
     nome: {
         type: db.Sequelize.STRING,
-        allowNull: false
+        allowNull: false,
+        unique: true
     },
 
     email: {
         type: db.Sequelize.STRING,
         allowNull: false,
-        //unique: true
+        unique: true
     },
 
     genero: {
